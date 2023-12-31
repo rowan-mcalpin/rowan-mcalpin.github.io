@@ -1,14 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rowan McAlpin</title>
-  </head>
-  <body>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="scripts/navigation.js"></script>
+    <script src="scripts/main.js"></script>
+    <title>Document</title>
+</head>
+<body onresize="onResize()">
+    <header>
+        <nav class="nav" id="navbar">
+            <ul class="nav_list" id="nav_ul">
+                <li class="nav_item">
+                    <a href="#about" class="nav_link" onclick="navItemClick()">About</a>
+                </li>
+                <li class="nav_item">
+                    <a href="#skills" class="nav_link" onclick="navItemClick()">Skills</a>
+                </li>
+                <li class="nav_item">
+                    <a href="#projects" class="nav_link" onclick="navItemClick()">Projects</a>
+                </li>
+            
+                <li class="nav_item">
+                    <a href="#contact" class="nav_link" onclick="navItemClick()">Contact</a>
+                </li>
+            </ul>
+
+            <!-- For mobile devices, add a hamburger button -->
+            <a href="javascript:void(0);" class="icon" onclick="toggleNavigation()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </nav>
+    </header>
+
     <main>
-        <h1>This website is under construction.</h1>  
-        <p>In the meantime, here's a link to my <a href="https://github.com/rowan-mcalpin">github profile</a>.</p>
+        <div class="topspacer"></div>
+
+        <div class="section" id="about">
+            <h1>Hey!</h1>
+            <p>This website is under development! Thank you for your interest. I am currently working to finish the content to get this site up and running. Please check back in a few days. Thank you!</p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;~Rowan</p>
+        </div>
     </main>
-  </body>
+
+    <footer>
+        <cite>
+            <p id="footerMessage">&copy;2023 Rowan McAlpin</p>
+        </cite>
+    </footer>
+</body>
 </html>

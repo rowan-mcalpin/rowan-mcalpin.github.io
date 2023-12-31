@@ -1,0 +1,176 @@
+/* Color scheme */
+:root {
+    --bg: #313131;
+    --navbar: #405665;
+    --text: #afafaf;
+    --primary-accent: #bfbf6f;
+    --secondary-accent: #6fbfb4;
+    --muted-primary-accent: #abab83;
+    --muted-secondary-accent: #84aaa5;
+}
+
+/* Basic styling */
+html {
+    scroll-behavior: smooth;
+}
+  
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3vh;
+    line-height: 2;
+    overflow-x: hidden;
+    background: var(--bg);
+    color: var(--text);
+}
+
+.anchor {
+    scroll-margin-top: 4.9rem;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text);
+}
+
+/* Change the color of bolded text */
+strong {
+    color: var(--muted-primary-accent);
+}
+
+main {
+    padding: 0 25%;
+}
+
+p {
+    margin-bottom: 30px;
+}
+
+/* Navigation bar */
+nav {
+    height: 5rem;
+    line-height: 5rem;
+    width: 100%;
+    display: flex;
+    z-index: 10;
+    font-weight: 300;
+    position: fixed;
+    align-items: center;
+    background-color: var(--navbar);
+}
+
+nav ul {
+    list-style: none;
+    align-items: center;
+    text-transform: uppercase;
+    float: center;
+    position: fixed;
+    right: 12%;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+nav ul li a {
+    color: inherit;
+    text-decoration: none;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 16px 0;
+    margin: 0 12px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    transition: color 0.1s, background-color 0.1s, padding 0.2s ease-in;
+    color: var(--text);
+}
+
+.nav_link::before {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 3px;
+    left: 0;
+    height: 3px;
+    width: 100%;
+    background-color: var(--primary-accent);
+    transform-origin: right top;
+    transform: scale(0, 1);
+    transition: color 0.1s, transform 0.1s ease-out;
+}
+
+.nav_link:hover::before,
+.nav_link:focus::before {
+    transform-origin: left top;
+    transform: scale(1, 1);
+}
+
+.icon {
+    position: absolute;
+    right: 2%;
+    top: 0;
+    display: none;
+}
+
+/* Adding a spacer for underneath the navbar */
+.topspacer {
+    width: 100%;
+    min-height: 5rem;
+}
+
+/* Content */
+.section {
+    margin: auto;
+    padding: 1%;
+    min-height: 50vh;
+    text-align: left;
+    margin-bottom: 200px;
+}
+
+/* Footer */
+footer {
+    font-size: 1.8vh;
+    padding: 1em;
+    text-align: right;
+    background-color: var(--navbar);
+    position: absolute;
+    
+    /* REMOVE FOLLOWING TWO LINES WHEN MORE CONTENT IS ADDED */
+    bottom: 0;
+    width: 100%;
+}
+
+/* RESPONSIVE STYLING */
+@media screen and (max-width: 850px) {
+    nav ul {
+        display: none;
+    }
+
+    nav {
+        width: 0%;
+        padding: 0px;
+        height: 100%;
+        position: absolute;
+        right: 2%;
+        transition: background-color 0.1s ease, width 0.1s ease;
+    }
+
+    nav ul li {
+        display: block;
+    }
+
+    .icon {
+        display: block;
+    }
+
+    .spacer {
+        display: none;
+    }
+}
