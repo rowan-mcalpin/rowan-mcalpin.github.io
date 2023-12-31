@@ -141,6 +141,7 @@ footer {
     text-align: right;
     background-color: var(--navbar);
     position: absolute;
+    width: 100%;
 }
 
 /* RESPONSIVE STYLING */
