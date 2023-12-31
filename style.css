@@ -141,10 +141,6 @@ footer {
     text-align: right;
     background-color: var(--navbar);
     position: absolute;
-    
-    /* REMOVE FOLLOWING TWO LINES WHEN MORE CONTENT IS ADDED */
-    bottom: 0;
-    width: 100%;
 }
 
 /* RESPONSIVE STYLING */
