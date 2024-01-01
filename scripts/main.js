@@ -1,5 +1,5 @@
 //region Last Modified indicator
-var copyrightMessage = "&copy;2023 Rowan McAlpin";
+var copyrightMessage = "&copy;2024 Rowan McAlpin";
 var lastUpdate = "";
 
 // Get the date of the most recent commit from the GitHub repository holding this code (modified from https://stackoverflow.com/a/56280126)
