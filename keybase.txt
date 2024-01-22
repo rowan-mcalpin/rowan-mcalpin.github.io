@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/rowanmcalpin
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://rowanmcalpin.com
+  * I am rowanmcalpin (https://keybase.io/rowanmcalpin) on keybase.
+  * I have a public key with fingerprint 0193 C865 CD19 3743 4FD5  6FD3 5BCC C0D2 6DE8 D9D4
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01012e007b7c1209cbbd609ff08be2d3a62c2cb3bb289c61a3b65e611a3ae8c8ac830a",
+      "fingerprint": "0193c865cd1937434fd56fd35bccc0d26de8d9d4",
+      "host": "keybase.io",
+      "key_id": "5bccc0d26de8d9d4",
+      "kid": "01012e007b7c1209cbbd609ff08be2d3a62c2cb3bb289c61a3b65e611a3ae8c8ac830a",
+      "uid": "a6eb3b8fa69b27f04d6dd2181097cf19",
+      "username": "rowanmcalpin"
+    },
+    "service": {
+      "hostname": "rowanmcalpin.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1705902256,
+  "expire_in": 157680000,
+  "prev": "868bc386c5cb343a5f5df43a66a778521948dc19780b0be790413889ceb85182",
+  "seqno": 3,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.13
+Comment: https://keybase.io/crypto
+
+yMIjAnicrVJbSBRRGN616y6K0cUsqGB6CVI7cztzZitKJdGKIqLooq1zLrOO6cy2
+O6uZSoVFL/VQENENJR8K7CJIIPsglSlBYlAYiJRJKSQsSdpDdj2z1FuPnZf/P+f/
+vu/8/8f/NGuOL+gfvjrSvyW1PN///HFrwsfu+zobBezQBiHUKBxl6cBqKIu74aMW
+FUICEIEoMQA0rBFRAjrBmEKgmyZAmElUNqBEJIJljCWkEygaMoYqgyJPDIYIMgiS
+gSHkCaZlR1gsGrNsNy2rywRBlVCeaIqsmFSFJpVVTAgBVIKUIapThROrnLjH4M1h
+I84KLIe/8Us43d4/8P+570RazoCMY5FpQB1LmgkUCimVRCQCXSOmqHvAOIvZRi3j
+6JhTb9i1xKiJWrbQnCfwSp1FmGeuN80/UAXEqeUa0ZjjOsSp4dUq143GQx7bbYh6
+8HqGw3+EwtiyKfeTM+pYLG45thASOZK4lqcsakDVgSSpME9gx6NWjIUtD6FqEAF+
+vH9YHZdEEGEiI0hU7oQiG6qpUpNHCA1NQ6ok6gqiRNQ1BDDATNOBIsqI+8UwUkUk
+Cd5ox2xHCMm8TSPCJeNWxDbcRIwJzU8elc/1+YO++fMyvD3zBQOL/m7fUM5C3+lN
+vZ+aZr6WnGo5UPWrLxpaWpn0W7vyx94V5Y3Vbu5obR4KlqJEsGdr65EzFcmp+Nrj
+d5Tx3iRp3Dd461Rk1Qv5/Y7Ph5zZ8YzQ/qbCXP/kSN9MSbvarZdc3Bjc+f1a8YXX
+uzOj+sxg/+ruoiuXZr/s7u4NdHSduFuo5ObUpwayPuxzJqsydnTN9iQ/nkw2PKve
+O9E8unj5peLbX0FmdvH05aJBqayz9Ox2umRBIHBwZcXU4WWRtqzpy3tWPZh+sGb9
+QPbNwNU3sO3Gurpv1RNNk+0PU0JLyt0wWGb9XJ1z8m17iza9MnV9xdLyRa+G7/14
+WiqNbnNu9Z078rItXHnGPv8bOtNGgw==
+=wM/c
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/rowanmcalpin
+
+==================================================================
