@@ -6,17 +6,17 @@ var lastUpdate = "";
 var xhttp = new XMLHttpRequest();
 xhttp.onreadystatechange = function() {
   if (this.readyState == 4 && this.status == 200) {
-    let repos = JSON.parse(this.responseText);
-    repos.forEach((repo)=>{
-        if(repo.name == "rowan-mcalpin.github.io") {
-            lastUpdate = `last updated ${new Date(repo.updated_at).getMonth()+1}/${new Date(repo.updated_at).getDate()}/${new Date(repo.updated_at).getFullYear()}`
-        }
-    });
+    
+    var date = new Date(JSON.parse(this.responseText).commit.commit.author.date);
+    console.log(this.responseText);
+    console.log(date);
+
+    lastUpdate = `last updated ${date.getMonth()+1}/${date.getDate()}/${date.getFullYear()}`
 
     updateFooter();
   }
 };
-xhttp.open("GET", "https://api.github.com/users/rowan-mcalpin/repos", true);
+xhttp.open("GET", "https://api.github.com/repos/rowan-mcalpin/rowan-mcalpin.github.io/branches/main", true);
 xhttp.send();
 
 // Update the footer message with copyright message + lastUpdate message
