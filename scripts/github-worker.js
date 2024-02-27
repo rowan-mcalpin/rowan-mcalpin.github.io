@@ -20,7 +20,7 @@ xhttp.open("GET", "https://api.github.com/users/rowan-mcalpin/repos", true);
 xhttp.send();
 
 // Update the footer message with copyright message + lastUpdate message
-var updateFooter = () => {
-    document.getElementById("footerMessage").innerHTML = copyrightMessage + ", " + lastUpdate;
+function updateFooter() {
+    document.getElementById("footerContent").innerHTML = copyrightMessage + ", " + lastUpdate;
 }
 //endregion

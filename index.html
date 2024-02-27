@@ -10,57 +10,51 @@
     
       gtag('config', 'G-8XGJJHE60B');
     </script>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <script src="scripts/navigation.js"></script>
-    <script src="scripts/main.js"></script>
+    <link rel="stylesheet" href="main.css">
+    <script src="scripts/github-worker.js"></script>
     <title>Rowan McAlpin</title>
 </head>
-<body onresize="onResize()">
-    <header>
-        <nav class="nav" id="navbar">
-            <ul class="nav_list" id="nav_ul">
-                <li class="nav_item">
-                    <a href="javascript:void(0);" class="nav_link" onclick="navItemClick(); goTo('#about')">About</a>
-                </li>
-                <li class="nav_item">
-                    <a href="javascript:void(0);" class="nav_link" onclick="navItemClick(); goTo('#skills')">Skills</a>
-                </li>
-                <li class="nav_item">
-                    <a href="javascript:void(0);" class="nav_link" onclick="navItemClick(); goTo('#projects')">Projects</a>
-                </li>
-            
-                <li class="nav_item">
-                    <a href="javascript:void(0);" class="nav_link" onclick="navItemClick(); goTo('#contact')">Contact</a>
-                </li>
-            </ul>
-
-            <!-- For mobile devices, add a hamburger button -->
-            <a href="javascript:void(0);" class="icon" onclick="toggleNavigation()">
-                <i class="fa fa-bars"></i>
-            </a>
-        </nav>
-    </header>
-
-    <main>
-        <div class="topspacer"></div>
-
-        <div class="section" id="about">
-            <h1>Hey!</h1>
-            <p>This website is under development! Thank you for your interest. I am currently working to finish the content to get this site up and running. Please check back in a few days. Thank you!</p>
-            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;~Rowan</p>
+<body>
+    <nav>
+        <ul class="navlist">
+            <li class="left navitem"><a href="https://rowanmcalpin.com/">Portfolio</a></li>
+            <li class="left navitem"><a href="https://rowanmcalpin.com/xenith">Xenith KDoc</a></li>
+            <li class="right navitem"><a href="mailto:rowan@rowanmcalpin.com" target="_blank">Contact</a></li>
+            <li class="right navitem"><a href="https://linkedin.com/in/rowan-mcalpin">LinkedIn</a></li>
+            <li class="right navitem"><a href="https://github.com/rowan-mcalpin">GitHub</a></li>
+        </ul>
+    </nav>
+    <div class="page">
+        <section class="intro">
+            <img src="img/headshot.jpg" alt="A headshot of Rowan McAlpin" class="headshot" />
+            <div class="gap"><!-- This div adds a 20px gap. --></div>
+            <h1>Hi! I'm <span class="highlight">Rowan McAlpin</span>!</h1>
+            <p><em>High school student, software developer, and circus artist.</em></p>
+        </section>
+        <hr>
+        <div class="columns__container">
+            <section class="column col_left">
+                <h4 class="">About Me</h4>
+                <p>I have to write this content still. The site layout is good for now, but I need to add in the actual content. Can you check back in a few weeks? Thanks!</p>
+            </section>
+            <section class="column col_right">
+                <h4 class="right__text">My Story</h4>
+                <div class="right__text">
+                    <p>I was born and now I'm here. I need to expand on this and make it actually worth reading. Hold tight!</p>
+                </div>
+            </section>
         </div>
-    </main>
-
-    <!-- Back to top button -->
-    <button onclick="backToTop()" id="toTop" title="Go back to top">Back to top</button>
-
+        <hr>
+        <section>
+            <p>Yes, some more content will be going down here. Again, I just need to write it. I've got a busy life, please be patient. I hope to see you back in a few weeks,
+                maybe I'll have finished by then. Thank you for understanding!
+            </p>
+        </section>
+    </div>
     <footer>
         <cite>
-            <p id="footerMessage">&copy;2024 Rowan McAlpin</p>
+        <p id="footerContent">&copy;2024 Rowan McAlpin</p>
         </cite>
     </footer>
 </body>
