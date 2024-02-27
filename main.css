@@ -10,6 +10,7 @@
 
 body {
     background-color: #f3f3f3;
+    min-width: 575px;
 }
 
 .page {
@@ -127,4 +128,30 @@ h4 {
 footer {
     padding: 10px 25%;
     text-align: right;
+}
+
+@media screen and (max-width: 1050px) {
+    nav {
+        padding: 10px 15%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .page {
+        margin-left: 15%;
+        margin-right: 15%;
+    }   
+}
+
+@media screen and (max-width: 750px) {
+    nav {
+        padding: 10px 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .page {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
 }
