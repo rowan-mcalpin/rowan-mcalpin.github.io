@@ -1,1 +1,0 @@
-This subfolder contains the generated HTML code for the Xenith documentation.

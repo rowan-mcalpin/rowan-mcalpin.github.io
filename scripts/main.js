@@ -23,4 +23,16 @@ xhttp.send();
 function updateFooter() {
     document.getElementById("footerContent").innerHTML = copyrightMessage + ", " + lastUpdate;
 }
+
+
+function spin() {
+  document.body.style.transform = "rotate(360deg)";
+  setTimeout(function() {
+    document.body.style.transitionProperty = "none";
+    document.body.style.transform = "rotate(0deg)";
+    setTimeout(function() {
+    document.body.style.transitionProperty = "transform";
+    }, 800)
+  }, 800);
+}
 //endregion
